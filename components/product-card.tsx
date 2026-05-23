@@ -32,21 +32,22 @@ export function ProductCard({ product, index = 0 }: ProductCardProps) {
     >
       {/* Image Container */}
       <motion.div
-        className="relative h-64 bg-muted overflow-hidden"
-        whileHover={{ scale: 1.05 }}
-        transition={{ duration: 0.3 }}
-      >
-        <Image
-          src={product.image}
-          alt={product.name}
-          fill
-          className="object-cover"
-          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-        />
-        <div className="absolute top-4 right-4 bg-primary text-primary-foreground px-3 py-1 rounded-full text-xs font-semibold">
-          {product.category}
-        </div>
-      </motion.div>
+  className="relative h-80 bg-white overflow-hidden flex items-center justify-center p-4"
+  whileHover={{ scale: 1.02 }}
+  transition={{ duration: 0.3 }}
+>
+  <Image
+    src={product.image}
+    alt={product.name}
+    width={300}
+    height={300}
+    className="h-full w-auto object-contain transition-transform duration-300 hover:scale-105"
+  />
+
+  <div className="absolute top-4 right-4 bg-primary text-primary-foreground px-3 py-1 rounded-full text-xs font-semibold">
+    {product.category}
+  </div>
+</motion.div>
 
       {/* Content */}
       <div className="p-6">
