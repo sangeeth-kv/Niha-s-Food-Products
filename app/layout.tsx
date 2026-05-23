@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 
   creator: "Sangeeth KV",
 
-  metadataBase: new URL("https://your-domain.vercel.app"),
+  metadataBase: new URL("https://niha-s-food-products.vercel.app/"),
 
   openGraph: {
     title: "Niha's Food Products",
