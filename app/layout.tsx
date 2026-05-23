@@ -7,27 +7,27 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Niha\'s Kerala Foods | Authentic Traditional Flavors',
-  description: 'Discover authentic Kerala food products including coconut oil, spices, snacks, and more. Pure, handmade ingredients with no additives. Order on WhatsApp.',
-  keywords: 'Kerala foods, coconut oil, spices, traditional snacks, authentic Kerala, food delivery',
+  title: 'Niha\'s Food Products | Authentic Traditional Flavors',
+  description: 'Discover authentic Kerala food products including puttu podi,pathiri podi and more. Pure, handmade ingredients with no additives. Order on WhatsApp.',
+  keywords: 'Kerala foods, podi, pathiri podi, puttu podi, authentic Kerala, food delivery',
   generator: 'v0.app',
   openGraph: {
-    title: 'Niha\'s Kerala Foods | Authentic Traditional Flavors',
+    title: 'Niha\'s Food Products | Authentic Traditional Flavors',
     description: 'Discover authentic Kerala food products including coconut oil, spices, snacks, and more.',
     type: 'website',
   },
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
+        url: '/images/LOGO.jpeg',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: '/images/LOGO.jpeg',
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.svg',
+        url: '/images/LOGO.jpeg',
         type: 'image/svg+xml',
       },
     ],

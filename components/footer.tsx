@@ -127,9 +127,32 @@ export function Footer() {
             <a href="#" className="hover:text-background transition-colors">
               Terms of Service
             </a>
+            
           </div>
         </motion.div>
-      </div>
+<motion.div
+  className="mt-6 flex justify-center"
+  initial={{ opacity: 0, y: 10 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true }}
+  transition={{ duration: 0.5 }}
+>
+  <a
+    href="mailto:sangeethkvdevelops@gmail.com"
+    className="text-sm text-background/60 hover:text-background transition-all duration-300 flex items-center gap-2 group"
+  >
+    <span className="h-px w-8 bg-background/30 group-hover:w-12 transition-all"></span>
+
+    <span>
+      Developed by{" "}
+      <span className="font-semibold text-background">
+        Sangeeth KV
+      </span>
+    </span>
+
+    <span className="h-px w-8 bg-background/30 group-hover:w-12 transition-all"></span>
+  </a>
+</motion.div>      </div>
     </footer>
   );
 }
