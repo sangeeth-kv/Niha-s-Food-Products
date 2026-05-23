@@ -8,13 +8,13 @@ import { Footer } from "@/components/footer";
 export default function Page() {
   return (
     <main className="bg-background text-foreground">
-      <Navbar />
+      {/* <Navbar />
       <HeroSection />
       <ProductShowcase />
       <AboutSection />
       <ContactSection />
-      <Footer />
-    {/* <div className="min-h-screen flex flex-col items-center justify-center bg-black text-white text-center px-4">
+      <Footer /> */}
+    <div className="min-h-screen flex flex-col items-center justify-center bg-black text-white text-center px-4">
   <h1 className="text-4xl md:text-6xl font-bold mb-4">
     Server Under Maintenance
   </h1>
@@ -23,7 +23,7 @@ export default function Page() {
     We are currently improving our website to serve you better.
     Please check back again shortly.
   </p>
-</div> */}
+</div>
     </main>
   );
 }
