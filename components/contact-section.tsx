@@ -116,8 +116,8 @@ export function ContactSection() {
             Ready to Taste Authentic Kerala?
           </h3>
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Order now through WhatsApp and get your favorite Kerala products
-            delivered to your doorstep!
+            Bring the Authentic Taste of Kerala
+Contact us on WhatsApp to order premium quality Puttu Podi and Pathiri Podi made with traditional recipes.
           </p>
           <motion.a
             href={CONTACT_INFO.whatsappLink}

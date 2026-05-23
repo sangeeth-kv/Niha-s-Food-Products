@@ -32,7 +32,7 @@ export function HeroSection() {
   return (
     <section
       id="home"
-      className="relative h-screen overflow-hidden"
+      className="relative min-h-[70vh] md:h-screen overflow-hidden bg-black"
     >
       <AnimatePresence mode="wait">
         <motion.div
@@ -49,7 +49,7 @@ export function HeroSection() {
             alt={banners[current].title}
             fill
             priority
-            className="object-cover"
+            className="object-contain  md:object-contain"
           />
 
           {/* Dark Overlay */}

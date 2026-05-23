@@ -62,7 +62,7 @@ export function AboutSection() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Why Choose <span className="text-primary">Niha&apos;s</span> Foods
+            Why Choose <span className="text-primary">Niha&apos;s</span> Food Products
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             More than just food—a commitment to quality, authenticity, and tradition
@@ -107,11 +107,9 @@ export function AboutSection() {
             Our Story
           </h3>
           <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-            Niha&apos;s Kerala Foods began as a passion project to share the authentic
-            flavors of Kerala with the world. Drawing from family recipes and
-            traditional cooking methods passed down through generations, we
-            carefully craft each product to deliver an authentic Kerala experience
-            to your table.
+            Niha&apos;s Food Products was started with a passion for bringing the authentic taste of Kerala to every home. Inspired by traditional family recipes and homemade cooking methods, we carefully prepare each product with quality ingredients and genuine Kerala flavors.
+
+Our mission is to preserve Kerala’s rich culinary heritage while delivering fresh, hygienic, and premium-quality food products made with care and tradition.
           </p>
           <p className="text-lg text-muted-foreground leading-relaxed">
             Every product is a testament to our commitment to quality, purity, and
