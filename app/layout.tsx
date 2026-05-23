@@ -80,6 +80,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="bg-background">
+       <head>
+    <meta name="google-site-verification" content="w0VaoaQ9hxg_YqQ83Ke3MZbnBODh92FuatY-vJSxYZ0" />
+  </head>
       <body className="font-sans antialiased">
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
