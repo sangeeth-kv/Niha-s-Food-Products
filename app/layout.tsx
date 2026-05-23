@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     description:
       "Authentic Kerala Puttu Podi and Pathiri Podi with traditional homemade taste.",
 
-    url: "https://your-domain.vercel.app",
+    url: "https://niha-s-food-products.vercel.app/",
 
     siteName: "Niha's Food Products",
 
