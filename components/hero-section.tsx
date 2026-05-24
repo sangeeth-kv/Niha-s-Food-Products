@@ -7,12 +7,12 @@ import { CONTACT_INFO } from "@/lib/products";
 
 const banners = [
   {
-    image: "/images/banner1.png",
+    image: "/images/banner1.webp",
     title: "Authentic Kerala Flavors",
     subtitle: "Traditional taste preserved with love and quality.",
   },
   {
-    image: "/images/banner2.png",
+    image: "/images/banner2.webp",
     title: "Fresh Puttu & Pathiri Podi",
     subtitle: "Perfect for homes, shops, supermarkets, and events.",
   },

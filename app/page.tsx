@@ -1,20 +1,39 @@
+"use client";
 import { Navbar } from "@/components/navbar";
 import { HeroSection } from "@/components/hero-section";
 import { ProductShowcase } from "@/components/product-showcase";
 import { AboutSection } from "@/components/about-section";
 import { ContactSection } from "@/components/contact-section";
 import { Footer } from "@/components/footer";
+import Loader from "@/components/ui/loader";
+import { useEffect, useState } from "react";
 
 export default function Page() {
+
+   const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2500);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return <Loader />;
+  }
+
+
   return (
     <main className="bg-background text-foreground">
-      {/* <Navbar />
+      <Navbar />
       <HeroSection />
       <ProductShowcase />
       <AboutSection />
       <ContactSection />
-      <Footer /> */}
-    <div className="min-h-screen flex flex-col items-center justify-center bg-black text-white text-center px-4">
+      <Footer />
+    {/* <div className="min-h-screen flex flex-col items-center justify-center bg-black text-white text-center px-4">
   <h1 className="text-4xl md:text-6xl font-bold mb-4">
     Server Under Maintenance
   </h1>
@@ -23,7 +42,7 @@ export default function Page() {
     We are currently improving our website to serve you better.
     Please check back again shortly.
   </p>
-</div>
+</div> */}
     </main>
   );
 }

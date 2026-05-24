@@ -39,7 +39,7 @@ export const metadata: Metadata = {
 
     images: [
       {
-        url: "/images/LOGO.jpeg",
+        url: "/images/LOGO.webp",
         width: 1200,
         height: 630,
         alt: "Niha's Food Products",
@@ -59,12 +59,12 @@ export const metadata: Metadata = {
     description:
       "Authentic Kerala Puttu Podi and Pathiri Podi with traditional taste.",
 
-    images: ["/images/LOGO.jpeg"],
+    images: ["/images/LOGO.webp"],
   },
 
   icons: {
-    icon: "/images/LOGO.jpeg",
-    apple: "/images/LOGO.jpeg",
+    icon: "/images/LOGO.webp",
+    apple: "/images/LOGO.webp",
   },
 
   robots: {

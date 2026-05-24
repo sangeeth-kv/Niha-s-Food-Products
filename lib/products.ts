@@ -16,7 +16,7 @@ export const PRODUCTS: Product[] = [
       "Authentic Kerala-style puttu podi made from high-quality rice. Soft texture, traditional taste, and perfect for delicious homemade puttu.",
     category: "Traditional Kerala Foods",
     price: "₹120",
-    image: "/images/puttu-podi.jpeg",
+    image: "/images/puttu-podi.webp",
     highlights: [
       "Traditional Taste",
       "Premium Quality",
@@ -31,7 +31,7 @@ export const PRODUCTS: Product[] = [
       "Finely ground pathiri podi prepared using selected rice for making soft and authentic Kerala pathiri. Ideal for homes, shops, and events.",
     category: "Traditional Kerala Foods",
     price: "₹140",
-    image: "/images/pathiri-podi.jpeg",
+    image: "/images/pathiri-podi.webp",
     highlights: [
       "Soft Texture",
       "Authentic Kerala Recipe",

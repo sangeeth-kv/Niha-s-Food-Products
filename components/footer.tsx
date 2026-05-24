@@ -31,16 +31,21 @@ export function Footer() {
             </p>
             <div className="flex gap-4">
               <motion.a
-                href={CONTACT_INFO.whatsappLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-background/70 hover:text-background transition-colors"
-                whileHover={{ scale: 1.1 }}
-              >
-                <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M17.507 14.307l-.009.075c-1.444 1.935-4.149 2.529-6.49 1.308-2.341-1.221-3.577-4.35-2.731-7.045.846-2.696 3.636-4.345 6.589-3.957 2.953.388 5.145 2.682 5.145 5.677 0 .46-.052.905-.152 1.341.227-.067.45-.135.672-.207l2.157-.715c.446-.148.783-.483.872-.912.088-.429-.098-.883-.486-1.125-.388-.242-.886-.272-1.298-.089l-2.112.704c-.473-.37-1.021-.618-1.603-.699-.582-.081-1.166.041-1.709.36.098-.475.16-.976.16-1.495 0-1.006-.196-1.983-.556-2.915-.36-.932-.879-1.766-1.544-2.49-.665-.724-1.463-1.305-2.361-1.718-.898-.413-1.888-.629-2.925-.629-2.21 0-4.317.896-5.838 2.417s-2.417 3.628-2.417 5.838.896 4.317 2.417 5.838 3.628 2.417 5.838 2.417c1.095 0 2.158-.217 3.169-.639M11.978 7.024c1.089 0 2.055.444 2.758 1.146.702.702 1.146 1.669 1.146 2.758s-.444 2.055-1.146 2.758c-.702.702-1.669 1.146-2.758 1.146s-2.055-.444-2.758-1.146c-.702-.702-1.146-1.669-1.146-2.758s.444-2.055 1.146-2.758c.702-.702 1.669-1.146 2.758-1.146z" />
-                </svg>
-              </motion.a>
+  href={CONTACT_INFO.whatsappLink}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-background/70 hover:text-green-400 transition-colors"
+  whileHover={{ scale: 1.1 }}
+>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 32 32"
+    fill="currentColor"
+    className="w-6 h-6"
+  >
+    <path d="M16.004 3C8.82 3 3 8.82 3 16.004c0 2.56.746 5.062 2.156 7.207L3 29l5.953-2.117a12.94 12.94 0 007.051 2.07H16c7.184 0 13.004-5.82 13.004-13.004C29.004 8.82 23.184 3 16.004 3zm0 23.633a10.57 10.57 0 01-5.383-1.477l-.387-.23-3.531 1.254 1.156-3.441-.25-.398a10.56 10.56 0 01-1.633-5.637c0-5.836 4.746-10.582 10.582-10.582 2.824 0 5.48 1.098 7.48 3.098a10.51 10.51 0 013.102 7.484c0 5.836-4.75 10.582-10.586 10.582zm5.805-7.93c-.316-.156-1.867-.922-2.156-1.027-.289-.105-.5-.156-.711.156-.211.316-.816 1.027-1 .922-.184-.105-.777-.289-1.48-.922-.547-.488-.918-1.09-1.027-1.273-.105-.184-.012-.285.078-.379.078-.078.184-.211.289-.316.105-.105.141-.184.211-.316.07-.133.035-.25-.016-.352-.051-.105-.711-1.711-.973-2.34-.258-.621-.52-.535-.711-.543l-.605-.012c-.211 0-.551.078-.84.395-.289.316-1.105 1.078-1.105 2.629s1.133 3.047 1.289 3.258c.156.211 2.227 3.398 5.398 4.762.754.324 1.344.516 1.805.66.758.242 1.449.207 1.996.125.609-.09 1.867-.762 2.133-1.496.262-.734.262-1.367.184-1.496-.078-.129-.289-.207-.605-.363z" />
+  </svg>
+</motion.a>
               <motion.a
                 href={`mailto:${CONTACT_INFO.email}`}
                 className="text-background/70 hover:text-background transition-colors"
@@ -137,10 +142,10 @@ export function Footer() {
             © {currentYear} Niha&apos;s Food Products. All rights reserved.
           </p>
           <div className="flex gap-4 mt-4 md:mt-0">
-            <a href="#" className="hover:text-background transition-colors">
+            <a href="/policies/privacy-policy.pdf" className="hover:text-background transition-colors">
               Privacy Policy
             </a>
-            <a href="#" className="hover:text-background transition-colors">
+            <a href="/policies/terms-of-service.pdf" className="hover:text-background transition-colors">
               Terms of Service
             </a>
             

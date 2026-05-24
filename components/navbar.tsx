@@ -22,7 +22,7 @@ export function Navbar() {
           {/* Logo */}
           <div className="flex items-center gap-3">
   <img
-    src="/images/LOGO.jpeg"
+    src="/images/LOGO.webp"
     alt="Niha's Kerala Foods Logo"
     className="h-12 w-12 object-cover "
   />
